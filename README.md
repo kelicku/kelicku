@@ -4,7 +4,7 @@ I've spent the last seven years in the trenches as a senior full-stack and block
 I'm a natural collaborator and a pragmatic problem-solver. I thrive in teams that are building something meaningful and enjoy working directly with clients to make sure what we build not only works but actually moves the needle. I stick around to make sure it's done right.
 
 
-```solidity
+```Move
 const aboutMe = {
   programingLanguages: [Javascript, Solidity, Rust, Move, Dart, C++, Python, Java],
   askMeAbout: ["blockchain dapps", "smart contract", "trading bo", "DEX", "web dev", "tech", "app dev",],
