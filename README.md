@@ -1,5 +1,5 @@
 # 🔶 About Me
-I've spent the last seven years in the trenches as a senior full-stack and blockchain engineer. My specialty is cutting through the complexity to build robust, scalable solutions, whether that's a sleek web app or a novel smart contract system.
+I've spent the last seven years in the trenches as a senior full stack and blockchain engineer. My specialty is cutting through the complexity to build robust, scalable solutions, whether that's a sleek web app or a novel smart contract system.
 
 I'm a natural collaborator and a pragmatic problem-solver. I thrive in teams that are building something meaningful and enjoy working directly with clients to make sure what we build not only works but actually moves the needle. I stick around to make sure it's done right.
 
