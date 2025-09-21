@@ -5,28 +5,38 @@ I'm a natural collaborator and a pragmatic problem-solver. I thrive in teams tha
 
 
 ```Move
-const aboutMe = {
-  programingLanguages: [Javascript, Solidity, Rust, Move, Dart, C++, Python, Java],
-  askMeAbout: ["blockchain dapps", "smart contract", "trading bo", "DEX", "web dev", "tech", "app dev",],
-  technologies: {
-        fullStack: {
-            blockchain: ["EVM", "SVM", "Hardhat", "GraphQL", "Moralis"],
-            webDev: ["React","Next, "Node", "Next", "Express", "TailwindCSS"],
-        },
-        mobileApp: {
-            crossPlatform: ["Flutter Development", "Dart"],
-        },
-        devOps: ["Azure", "Docker🐳"],
-        databases: ["mongoDB", "firebase"],
-        otherTools : ["Git", "Figma", "Postman", "Photoshop"],
-  },
-  techCommunities: {
-                        coreTeam: "Google Developer Student Club",
-                        mentor: "Microsoft Learn Student Ambassador",
-                        techWeb_lead: "Ecell, IIITL",
-                        sessions: "Axios, IIITL",
-                        co-organiser: "Equinox, Enspire",
-                   },
- funFact: "There are two ways to write error-free programs; only the third one works"
+impl Default for AboutMe {
+    fn default() -> Self {
+        Self {
+            programming_languages: vec![
+                "Javascript", "Solidity", "Rust", "Move", "Dart", "C++", "Python", "Java"
+            ],
+            ask_me_about: vec![
+                "blockchain dapps", "smart contract", "trading bot", "DEX", 
+                "web dev", "tech", "app dev"
+            ],
+            technologies: Technologies {
+                full_stack: FullStack {
+                    blockchain: vec!["EVM", "SVM", "Hardhat", "GraphQL", "Moralis"],
+                    web_dev: vec!["React", "Next", "Node", "Express", "TailwindCSS"],
+                },
+                mobile_app: MobileApp {
+                    cross_platform: vec!["Flutter Development", "Dart"],
+                },
+                dev_ops: vec!["Azure", "Docker🐳"],
+                databases: vec!["mongoDB", "firebase"],
+                other_tools: vec!["Git", "Figma", "Postman", "Photoshop"],
+            },
+            tech_communities: TechCommunities {
+                core_team: "Google Developer Student Club",
+                mentor: "Microsoft Learn Student Ambassador",
+                tech_web_lead: "Ecell, IIITL",
+                sessions: "Axios, IIITL",
+                co_organizer: "Equinox, Enspire",
+            },
+            fun_fact: "There are two ways to write error-free programs; only the third one works",
+        }
+    }
 }
+
 ```
